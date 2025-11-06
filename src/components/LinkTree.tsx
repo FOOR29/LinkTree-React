@@ -38,8 +38,8 @@ const LinkTree = () => {
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-gray-700/30 w-full text-white font-bold flex items-center gap-2 px-4 py-3 rounded-md 
-                    transform transition-transform duration-300 backdrop-blur-md hover:-translate-y-1 hover:bg-gray-700/40
+                    className="bg-gray-700/12 w-full text-white font-bold flex items-center gap-2 px-4 py-3 rounded-md 
+                    transform transition-transform duration-300 backdrop-blur-md hover:-translate-y-1 hover:bg-gray-700/25
                     text-focus-in"
                 >
                     <span className="text-3xl">{link.icon}</span>
