@@ -11,7 +11,7 @@ const Profile = () => {
                     @foorhx
                     <img className="w-5 h-6 pt-1" src={iconVerified} alt="verified" />
                 </span>
-                <p className="text-white font-bold text-1xl pt-3 text-center w-80">"Disciplina en el cuerpo, diseo en la mente, musica en el alma"</p>
+                <p className="text-white font-semibold text-1xl pt-3 text-center w-80">"Born in silence, forged in pain, risen through sound"</p>
             </div>
         </div>
     )

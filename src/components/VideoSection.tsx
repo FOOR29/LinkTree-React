@@ -14,7 +14,7 @@ const VideoSection = () => {
     };
 
     return (
-        <div className="relative w-full max-w-sm rounded-xl overflow-hidden shadow-md bg-black border border-gray-600">
+        <div className="relative w-full max-w-sm h-47 rounded-xl overflow-hidden shadow-md bg-black border border-gray-600">
             <video
                 ref={videoRef}
                 src="https://res.cloudinary.com/dlxii2hkq/video/upload/v1762219811/The_Weeknd_Playboi_Carti_-_Timeless_-_TheWeekndVEVO_1080p_h264_d5oope.mp4"
