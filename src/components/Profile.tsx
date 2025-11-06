@@ -1,6 +1,6 @@
 import imgProfile from "../assets/images/photo.jpg"
 import iconVerified from "../assets/icons/icon-verified.png"
-
+import "../styles/animations.css"
 
 const Profile = () => {
     return (
