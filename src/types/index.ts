@@ -1,7 +1,7 @@
-import type { JSXElementConstructor } from "react";
+import { IconType } from "react-icons";
 
 export type linksType = {
     name: string;
-    icon: JSX.Element;
+    icon: any  | IconType;
     url?: string;
 }
