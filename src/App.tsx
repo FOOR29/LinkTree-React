@@ -12,9 +12,9 @@ function App() {
         <Beams
           beamWidth={3}
           beamHeight={25}
-          beamNumber={12}
+          beamNumber={11}
           lightColor="#808080"
-          speed={2}
+          speed={7}
           noiseIntensity={1.75}
           scale={0.2}
           rotation={40}
