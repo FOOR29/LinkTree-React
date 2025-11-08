@@ -1,4 +1,4 @@
-import Backgraund from "./components/Backgrounds/Backgraund";
+import Backgraund from "./components/Backgrounds/background-pc/Backgraund";
 import LinkTree from "./components/LinkTree";
 import Profile from "./components/Profile";
 import VideoSection from "./components/VideoSection";

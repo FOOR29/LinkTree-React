@@ -25,7 +25,7 @@ const VideoSection = () => {
                 className="w-full h-full object-cover"
             ></video>
 
-            <div className="absolute bottom-2 left-3 right-3 flex justify-between items-center text-white text-sm">
+            <div className="absolute bottom-2 left-3 right-3 flex justify-between items-center text-white text-sm font-medium">
                 <span>Timeless</span>
 
                 <button
