@@ -2,7 +2,7 @@ import { AiFillTikTok } from "react-icons/ai"
 import { FaGithub } from "react-icons/fa"
 import { PiInstagramLogoFill } from "react-icons/pi"
 import { SiYoutubemusic } from "react-icons/si"
-import type { linksType } from "../types"
+import type { linksType } from "../../../types/index"
 
 const LinkTree = () => {
 
@@ -20,7 +20,7 @@ const LinkTree = () => {
         {
             name: "Youtube Music",
             icon: <SiYoutubemusic />,
-            url: "#"
+            url: "/music"
         },
         {
             name: "Tiktok",
