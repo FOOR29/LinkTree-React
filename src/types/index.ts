@@ -5,3 +5,10 @@ export type linksType = {
     icon: any | IconType;
     url?: string;
 }
+
+export type Playlist = {
+    title: string;
+    songCount: number;
+    imgSrc: string;
+    url: string;
+}

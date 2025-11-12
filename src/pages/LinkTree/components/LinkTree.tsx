@@ -25,7 +25,7 @@ const LinkTree = () => {
         {
             name: "Tiktok",
             icon: <AiFillTikTok />,
-            url: "#"
+            url: "https://www.tiktok.com/@foor.js?_r=1&_t=ZS-91LeaC2rocJ"
         }
     ]
 

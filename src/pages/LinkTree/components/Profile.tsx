@@ -1,11 +1,19 @@
-import imgProfile from "../../../assets/images/photo.jpg"
 import iconVerified from "../../../assets/icons/icon-verified.png"
 import "../../../styles/animations.css"
+
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Profile = () => {
     return (
         <div className="flex justify-center items-center flex-col">
-            <img className="rounded-full w-24 h-24 object-cover" src={imgProfile} alt="photo-profile" />
+            <LazyLoadImage
+                className="rounded-full w-24 h-24 object-cover"
+                src="https://res.cloudinary.com/dlxii2hkq/image/upload/v1759181470/photo_ulnrml.webp"
+                alt="Photo profile"
+                effect="blur"
+            />
+
             <div className="flex justify-center items-center flex-col">
                 <span className="font-bold text-xl text-white pt-3 flex justify-center items-center gap-1">
                     @foorhx
@@ -17,4 +25,7 @@ const Profile = () => {
     )
 }
 
+
 export default Profile
+
+
